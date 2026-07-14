@@ -7,7 +7,7 @@ Full-stack ticket booking platform for movies and concerts with real-time seat m
 
 **Backend:** Node.js, Express, TypeScript, MongoDB (Mongoose), Redis (Upstash), BullMQ, Socket.io, Nodemailer, qrcode
 **Frontend:** React, TypeScript, Tailwind CSS, Socket.io-client, Axios, React Router
-**Hosting (planned):** Railway (backend), Vercel (frontend), MongoDB Atlas, Upstash Redis
+**Hosting :** Render (backend), Vercel (frontend), MongoDB Atlas, Upstash Redis
 
 ## Setup Guide
 
@@ -206,6 +206,12 @@ When a customer selects a seat:
 Access enforced via JWT (`verifyToken`) + role-check middleware (`requireRole`) on protected routes.
 
 ---
+## Deployment
+
+- **Live App:** https://ticket-booking-8n7k.vercel.app/
+- **Backend API:** https://ticket-booking-5z2f.onrender.com
+
+
 
 ## Project Status
 
